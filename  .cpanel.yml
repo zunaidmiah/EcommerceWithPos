@@ -1,0 +1,5 @@
+# cPanel
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aasthaba/public_html/
+    - /bin/cp index.html $DEPLOYPATH
